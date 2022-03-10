@@ -6,6 +6,12 @@ npx create-remix@latest --template <path/to/this/template>
 
 ## Known issues
 
+### dev
+
+Deno server is not currently configured to live reload when `--watch` detects changes, requiring a refresh in the browser for non-server changes (e.g. changing JSX content).
+
+Will look into this.
+
 ### React
 
 For all React-related imports (including `@remix-run/*` imports), we append `?pin=v68` to the URL.
