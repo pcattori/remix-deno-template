@@ -1,1 +1,1 @@
-export { default as ReactDOMServer } from "https://esm.sh/react-dom@17.0.2/server?pin=v68";
+export { default as ReactDOMServer } from "https://esm.sh/react-dom@17.0.2/server";

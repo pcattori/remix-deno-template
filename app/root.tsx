@@ -6,8 +6,8 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "https://esm.sh/@remix-run/react?pin=v68";
-import type { MetaFunction } from "https://esm.sh/@remix-run/server-runtime?pin=v68";
+} from "https://esm.sh/@remix-run/react";
+import type { MetaFunction } from "https://esm.sh/@remix-run/server-runtime";
 
 export const meta: MetaFunction = () => {
   return { title: "New Remix App" };
