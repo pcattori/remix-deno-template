@@ -1,4 +1,4 @@
-import { React } from "./deps.ts";
+import { React } from "./deps/index.ts";
 import {
   Links,
   LiveReload,
