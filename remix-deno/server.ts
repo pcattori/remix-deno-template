@@ -1,7 +1,7 @@
 import * as path from "https://deno.land/std@0.128.0/path/mod.ts";
 import mime from "https://esm.sh/mime";
-import { createRequestHandler as createRemixRequestHandler } from "https://esm.sh/@remix-run/server-runtime?pin=v68";
-import type { ServerBuild } from "https://esm.sh/@remix-run/server-runtime?pin=v68";
+import { createRequestHandler as createRemixRequestHandler } from "./deps/@remix-run/server-runtime.ts";
+import type { ServerBuild } from "./deps/@remix-run/server-runtime.ts";
 
 function defaultCacheControl(url: URL, assetsPublicPath = "/build/") {
   if (url.pathname.startsWith(assetsPublicPath)) {

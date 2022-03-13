@@ -1,5 +1,5 @@
-import { React } from "./deps/index.ts";
-import { ReactDOM } from "./deps/client.ts";
-import { RemixBrowser } from "https://esm.sh/@remix-run/react?pin=v68";
+import React from "./deps/react.ts";
+import ReactDOM from "./deps/react-dom.ts";
+import { RemixBrowser } from "./deps/@remix-run/react.ts";
 
 ReactDOM.hydrate(<RemixBrowser />, document);

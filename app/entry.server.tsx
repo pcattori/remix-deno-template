@@ -1,7 +1,7 @@
-import { React } from "./deps/index.ts";
-import { ReactDOMServer } from "./deps/server.ts";
-import { RemixServer } from "https://esm.sh/@remix-run/react?pin=v68";
-import type { EntryContext } from "https://esm.sh/@remix-run/server-runtime?pin=v68";
+import  React from "./deps/react.ts";
+import  ReactDOMServer from "./deps/react-dom-server.ts";
+import { RemixServer } from "./deps/@remix-run/react.ts";
+import type { EntryContext } from "./deps/@remix-run/server-runtime.ts";
 
 export default function handleRequest(
   request: Request,

@@ -2,8 +2,8 @@ import * as path from "https://deno.land/std@0.128.0/path/mod.ts";
 import type {
   SessionStorage,
   SessionIdStorageStrategy,
-} from "https://esm.sh/@remix-run/server-runtime?pin=v68";
-import { createSessionStorage } from "https://esm.sh/@remix-run/server-runtime?pin=v68";
+} from "../deps/@remix-run/server-runtime.ts";
+import { createSessionStorage } from "../deps/@remix-run/server-runtime.ts";
 
 interface FileSessionStorageOptions {
   /**

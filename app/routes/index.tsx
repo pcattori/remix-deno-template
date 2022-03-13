@@ -1,4 +1,4 @@
-import { React } from "../deps/index.ts";
+import React from "../deps/react.ts";
 
 export default function Index() {
   const [state, setState] = React.useState("first");

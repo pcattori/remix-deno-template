@@ -1,4 +1,4 @@
-import { React } from "./deps/index.ts";
+import React from "./deps/react.ts";
 import {
   Links,
   LiveReload,
@@ -6,8 +6,8 @@ import {
   Outlet,
   Scripts,
   ScrollRestoration,
-} from "https://esm.sh/@remix-run/react?pin=v68";
-import type { MetaFunction } from "https://esm.sh/@remix-run/server-runtime?pin=v68";
+} from "./deps/@remix-run/react.ts";
+import type { MetaFunction } from "./deps/@remix-run/server-runtime.ts";
 
 export const meta: MetaFunction = () => {
   return { title: "New Remix App" };
